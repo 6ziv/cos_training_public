@@ -14,7 +14,7 @@ extern "C"{
 fn main() {
     libos::init();
 
-    libos::println!("\n[ArceOS Tutorial]: B0\n");
+    libos::println!("\n[ArceOS Tutorial]: B1\n");
     verify();
 }
 
