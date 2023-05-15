@@ -10,6 +10,9 @@ for step in "$@"; do
         b0)
             make clean && make STEP=b0 run | tee /tmp/b0
             ;;
+		b1)
+            make clean && make STEP=b1 run | tee /tmp/b1
+            ;;
         *)
             echo 'no such step'
             ;;
